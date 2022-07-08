@@ -74,3 +74,68 @@ a:hover {
     height: 27px;
     text-decoration: none;
 }
+
+@media screen and (max-width:600px) {
+   .link-header {
+      display: none;
+   }
+   header {
+      margin: 0;
+   }
+   button {
+      margin:0;
+      margin: 2% 60%;
+   }
+   main {
+      display: flex;
+      flex-direction: column-reverse;
+      height: 100%;
+      margin-top: 20%;
+     
+   }
+   .main-img {
+      margin:0;
+      width: 100vw;
+      height: auto;
+      padding: 20px;
+   }
+   section {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 50%;
+      margin-bottom: 15%;
+   }
+   h1{
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+      line-height: 30px;
+      letter-spacing: 0.596154px;
+      width: 100vw;
+      height: 60%;
+      margin: 7% auto;
+      display: block;
+      text-align: center;
+      padding: 5px;
+
+   }
+   p{
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      line-height: 33px;
+      text-align: center;
+      width: 100vw;
+      height: 60%;
+      position: relative;
+      padding: 15px;
+   }
+   .learn-link {
+      margin: 0;
+      padding: 0;
+      font-size: 18px;
+      line-height: 27px;
+      margin: 6% 35%;
+   }
+}
